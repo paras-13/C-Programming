@@ -6,14 +6,31 @@
 4. --> Operators:- Used in expressions
 5. --> Special Characters:- For different declarations in C
 6. --> Strings:- A sequence of characters
-*/
-// A single character is written under single quotes while a string is written in double quotes
 
+ A single character is written under single quotes while a string is written in double quotes
+ %c --> char
+ %i %d --> short or int
+ %u --> unsigned int
+ %ld --> long
+ %lu --> unsigned long
+ %g or %g -->float
+ % lf --> double
+*/
 #include <stdio.h>
 int main(){
-    int b,c;
-    b=68;
-    c=72;
-    printf("%c %d",b,c);
+    int a;
+    float b;
+    char c;
+    double d;
+    a = 20;           // int
+    b=72.1;           // float
+    c='B';            // character
+    d = 3.2e20;       // exponent
+
+    printf("%i %f %c %lf\n",a,b,c,d);    // simply printing
+    // By default a normal floating point point number is printed upto a length of 6 digits after decimal
+    // Let say we need two decimal places after the decimal point
+    printf("%i %.2f %10c %.2lf",a,b,c,d);
     return 0;
+
 }
