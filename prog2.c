@@ -7,6 +7,12 @@
 5. --> Special Characters:- For different declarations in C
 6. --> Strings:- A sequence of characters
 
+# Data types in C:-
+1. Basic Data Type :- int, char, float, double
+2. Derived data types :- array, pointers, structure, union
+3. Enumeration Data Types :- emum
+4. Void Data Type :- void
+
  A single character is written under single quotes while a string is written in double quotes
  %c --> char
  %i %d --> short or int
@@ -32,5 +38,5 @@ int main(){
     // Let say we need two decimal places after the decimal point
     printf("%i %.2f %10c %.2lf",a,b,c,d);
     return 0;
-
+    
 }
