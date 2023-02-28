@@ -116,5 +116,22 @@ int main()
         n /= 10;
     }
 printf("%d",rev);
+    
+        // Palindrome number
+    int n, rev = 0, a, t;
+    printf("enter any number=");
+    scanf("%d", &n);
+    t = n;
+    while (n != 0)
+    {
+        a = n % 10;
+        rev = rev * 10 + a;
+        n = n / 10;
+    }
+    printf("rev=%d\n", rev);
+    if (t == rev)
+        printf("no is palindrome");
+    else
+        printf("no is not palindrome");
 return 0;
 }
