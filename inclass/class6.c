@@ -117,7 +117,7 @@ int main()
     }
 printf("%d",rev);
     
-        // Palindrome number
+// Palindrome number of a number
     int n, rev = 0, a, t;
     printf("enter any number=");
     scanf("%d", &n);
