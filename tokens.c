@@ -33,7 +33,7 @@ int main(){
     b=72.1;           // float
     c='B';            // character
     d = 3.2e20;       // exponent
-    
+
     printf("%i %f %c %lf\n",a,b,c,d);    // simply printing
     int age = 20;
     float height = 5.4;

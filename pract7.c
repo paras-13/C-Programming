@@ -8,5 +8,5 @@ int main()
     printf("%d in octal is %o\n",num,num);          // %o for octal
     printf("%d in hexadecimal is %X",num,num);      // %X for hexadecimal 
     return 0;
-
+    
 }
